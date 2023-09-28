@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Sets background color of whole webpage. */
 body {
     background-color: #d9dcd6;
 }
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* Formats letters "Hori" and "n" in h1, as well as defining display as inline-block. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Formats letters "seo" in */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Formats navigation section of header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ body {
     font-size: 20px;
 }
 
+/* Prevents bullet points from appearing in navigation. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Sets nav list elements to be displayed inline and with a left margin of 25px before each element. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/* Main image under header. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* Classes float-left and float-right are responsible for the positions of the pictures in the sections of the article. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +77,14 @@ p {
     margin-left: 25px;
 }
 
+/* Formats the text in sections within the article. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formats the aside container. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +96,7 @@ p {
     background-color: #2589bd;
 }
 
+/* The following code (lines 99-145) formats the sections of the aside. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +145,7 @@ p {
     max-width: 150px;
 }
 
+/* Lines 149-201 create blue boxes behind article sections and formats the elements (text, pictures) within them. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +200,7 @@ p {
     font-size: 36px;
 }
 
+/* Creates a padding of 30px, centers, sets font-family, and prevents elements from appearing on the left or right sides (with clear: both). */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +208,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Sets font size of h4 within the footer to 20px. */
+.footer h4 {
     font-size: 20px;
 }
